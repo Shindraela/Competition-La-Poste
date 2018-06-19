@@ -14,9 +14,9 @@ ul {
 	padding: 0;
 	list-style: none;
 }
-li:last-child {
+/* li:last-child {
 	align-self: center;
-}
+} */
 
 h2,
 h3,
@@ -62,6 +62,15 @@ a {
 
 .main-nav a:hover {
 	color: white;
+}
+
+.first-nav li:last-child {
+	position: absolute;
+	right: 42%;
+}
+
+.second-nav li:last-child {
+	align-self: center;
 }
 
 .header {
@@ -114,6 +123,6 @@ a {
 @media (min-width: 1025px) {
 	.header {
 		flex-direction: row;
-		justify-content: center;
+		justify-content: space-between;
 	}
 }
