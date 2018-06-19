@@ -9,13 +9,13 @@ import axios from 'axios';
 Vue.use(VueAxios, axios);
 
 import App from './App.vue';
-import CreateItem from './components/CreateItem.vue';
+import Menu from './components/Menu.vue';
 
 const routes = [
     {
-        name: 'CreateItem',
+        name: 'Menu',
         path: '/',
-        component: CreateItem
+        component: Menu
     }
 ];
 
