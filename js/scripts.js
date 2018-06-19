@@ -1,15 +1,15 @@
 // jQuery for page scrolling feature
-$(function() {
-    $('a.page-scroll').bind('click', function(event) {
-        var $anchor = $(this);
-        $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('href')).offset().top
-        }, 1500, 'easeInOutExpo');
-        event.preventDefault();
-    });
+$(function () {
+  $('a.page-scroll').bind('click', function (event) {
+    var $anchor = $(this);
+    $('html, body').stop().animate({
+      scrollTop: $($anchor.attr('href')).offset().top
+    }, 1500, 'easeInOutExpo');
+    event.preventDefault();
+  });
 });
 
-(function(){
+(function () {
 
   // resize helpers
   function onResize() {
@@ -27,12 +27,20 @@ $(function() {
     true;
   }
 
-  $(document).ready(function() {
+  $(document).ready(function () {
     $(window).bind('resize', _.throttle(onResize, 100));
     onResize();
 
     $(window).bind('scroll', _.throttle(onScroll, 100));
     onScroll();
-  });
 
+    $(window).bind('scroll', function () {
+      var distance = 500;
+      if ($(window).scrollTop() > distance) {
+        $('.header').addClass('scrolled');
+      } else {
+        $('.header').removeClass('scrolled');
+      }
+    });
+  });
 })();

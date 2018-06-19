@@ -2,21 +2,11 @@
 	box-sizing: border-box;
 }
 
-body {
-	font-family: 'Montserrat', sans-serif;
-	line-height: 1.6;
-	margin: 0;
-	min-height: 100vh;
-}
-
 ul {
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
-/* li:last-child {
-	align-self: center;
-} */
 
 h2,
 h3,
@@ -76,14 +66,12 @@ a {
 .header {
 	padding-top: .5em;
 	padding-bottom: .5em;
-	border: 0; /*1px solid #a2a2a2;*/
+	border: 0;
 	background-color: transparent;
-	/* -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
-	-moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
-	box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75); */
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
+}
+
+.scrolled {
+	background-color: grey;
 }
 
 .save-btn {
@@ -178,6 +166,7 @@ html, body {
 body {
   font-family: "robotoregular", Helvetica, Arial, sans-serif;
   font-size: 1em;
+	background-color: transparent !important;
 }
 
 html {
@@ -338,10 +327,6 @@ a {
   height: 225px;
   margin: 10px;
   border-radius: 100%;
-  background-image: url(../assets/img/profil.png);
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: cover;
 }
 
 .wrap .main-container section.about .container div.text {
@@ -591,10 +576,6 @@ a {
 }
 
 .wrap .main-container footer .logo {
-  background-image: url(../assets/img/logo-bordeaux.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 100% 100%;
   width: 150px;
   height: auto;
   margin: 0 auto;
