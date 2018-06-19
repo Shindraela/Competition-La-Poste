@@ -1,0 +1,26 @@
+/* ------------------------------------------------------------------------- */
+/* ABOUT                                                                     */
+/* ------------------------------------------------------------------------- */
+@media (max-width: 360px) {
+  .wrap .main-container section.about .container div.text {
+    width: 90%;
+    margin: 10px;
+    text-align: justify;
+  }
+  
+  .wrap .main-container section.projects a.project-link .project-hover .project-hover-content > h3.project-name {
+    margin-top: 30px;
+  }  
+  
+  .wrap .main-container section.projects a.project-link .project-hover .project-hover-content .project-text {
+    display: none;
+  }
+}
+/* ------------------------------------------------------------------------- */
+/* FOOTER                                                                    */
+/* ------------------------------------------------------------------------- */
+@media (max-width: 640px) {
+  .wrap .main-container footer .container {
+    flex-direction: column;
+  }
+}

@@ -1,53 +1,211 @@
 <!DOCTYPE html>
 <html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio de Farooq Asmaa, développeuse front-end, étudiante en mastère développement web">
+    <meta name="author" content="Farooq Asmaa">
+    <title>Asmaa Farooq</title>
+  
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/media-queries.css"/>
+    <link rel="stylesheet" type="text/css" href="css/fonts.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/font-awesome/css/font-awesome.min.css"> 
 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>GreenTips</title>
-        <link rel="stylesheet" href="css/style.css">
-    </head>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/img/logo-bordeaux.png" />
+  </head>
 
-    <body>
-        <header class="header">
-            <div>
-                <nav class="first-nav">
-                    <ul class="main-nav">
-                        <li>
-                            <a href="#">Fonctionnalités</a>
-                        </li>
-                        <li>
-                            <a href="#">Premium</a>
-                        </li>
-                        <li>
-                            <a href="#">Blog</a>
-                        </li>
-                        <li>
-                            <div class="logo">
-                                <a href="#"></a>
-                            </div>
-                        </li>
-                    </ul>
-                </nav>
+  <body>
+    <div id="wrap" class="wrap">
+      <header id="homepage" class="homepage">
+        <div class="container">
+          <div class="header-container">
+            <h1>Asmaa.</h1>
+            <hr />
+            <h2>Développeuse front-end</h2>
+          </div>
+          <div class="discover-button">
+            <a href="#about" class="page-scroll">
+              <i class="fa fa-arrow-down fa-2x"></i>
+            </a>
+          </div>
+        </div>
+      </header>
+      <header class="header">
+          <div>
+              <nav class="first-nav">
+                  <ul class="main-nav">
+                      <li>
+                          <a href="#">Fonctionnalités</a>
+                      </li>
+                      <li>
+                          <a href="#">Premium</a>
+                      </li>
+                      <li>
+                          <a href="#">Blog</a>
+                      </li>
+                      <li>
+                          <div class="logo">
+                              <a href="#"></a>
+                          </div>
+                      </li>
+                  </ul>
+              </nav>
+          </div>
+
+          <div>
+              <nav class="second-nav">
+                  <ul class="main-nav">
+                      <li>
+                          <a href="#">FR</a>
+                      </li>
+                      <li>
+                          <a href="#">Se connecter</a>
+                      </li>
+                      <li>
+                          <a href="#" class="save-btn">S'enregistrer</a>
+                      </li>
+                  </ul>
+              </nav>
+          </div>
+      </header>
+
+      <div id="main-container" class="main-container">
+        <section id="about" class="about">
+          <h3>A propos</h3>
+          <div class="container">
+            <div class="background-pic"></div>
+              <h2>Asmaa Farooq</h2>
+                  <div class="text">
+                    J'ai 21 ans, je suis actuellement étudiante en Licence professionnelle Conception, Rédaction et Réalisation Web, je souhaite consolider mes connaissances en intégration web afin de devenir une développeuse front-end accomplie, puis évoluer progressivement vers le développement full stack. En tant que développeuse front-end, je sais maîtriser des technologies comme <span class="important">HTML5</span>, <span class="important">CSS3</span>, <span class="important">JavaScript</span>, ou encore <span class="important">Bootstrap</span>. J'aimerais tout d'abord renforcer mes bases en intégration et me spécialiser avec <span class="important">AngularJS</span> dans un premier temps, que j'ai pu prendre en main lors de ma première expérience professionnelle, puis dans un second temps me tourner vers le mobile avec <span class="important">React Native</span>, que j'ai pu aussi tester. <span class="important">NodeJS</span> est aussi une des technologies que j'aimerais apprendre à maîtriser. Après avoir eu une bonne base et un bon renforcement en front-end, je voudrais me tourner progressivement vers le back-end pour pouvoir être, plus tard, polyvalente et indépendante pour des projets internes ou clients.</div>
+          </div>
+          <div class="cv-button btn-design">
+            <a href="assets/img/CV-Farooq_Asmaa.pdf" target="_blank">
+              <i class="fa fa-download"><span>Télécharger mon CV</span></i>
+            </a>
+          </div>
+        </section>
+
+        <section class="projects light-grey-background">
+          <h3>Projets</h3>
+          <div class="container">Jetez un oeil à certains de mes projets préférés que j'ai réalisés jusque-là, que ce soit de manière individuelle ou en groupe :</div>
+
+          <div class="all-projects">
+            <div class="project-box">
+              <a href="#digiwave-project" class="project-link" data-toggle="modal">
+                <div class="project-hover">
+                  <div class="project-hover-content">
+                    <h3 class="project-name">Leikir Web</h3>
+                    <div class="project-text">Site vitrine de l'agence</div>
+                  </div>
+                </div>
+                <img src="assets/img/leikir.png" class="img-responsive" alt="leikir-web" />
+              </a>
             </div>
 
-            <div>
-                <nav class="second-nav">
-                    <ul class="main-nav">
-                        <li>
-                            <a href="#">FR</a>
-                        </li>
-                        <li>
-                            <a href="#">Se connecter</a>
-                        </li>
-                        <li>
-                            <a href="#" class="save-btn">S'enregistrer</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-    </body>
+            <div class="project-box">
+              <a href="#lmp-project" class="project-link" data-toggle="modal">
+                <div class="project-hover">
+                  <div class="project-hover-content">
+                    <h3 class="project-name">50+1</h3>
 
+                    <div class="project-text">Projet client dans le cadre de mon alternance</div>
+                  </div>
+                </div>
+                <img src="assets/img/lmp.png" class="img-responsive" alt="cinquanteplusun" />
+              </a>
+            </div>
+
+            <div class="project-box">
+              <a href="#nogoresto-project" class="project-link" data-toggle="modal">
+                <div class="project-hover">
+                  <div class="project-hover-content">
+                    <h3 class="project-name">No Go Resto</h3>
+
+                    <div class="project-text">Projet interne dans le cadre de mon alternance</div>
+                  </div>
+                </div>
+                <img src="assets/img/nogoresto.png" class="img-responsive" alt="nogoresto" />
+              </a>
+            </div>
+
+            <div class="project-box">
+              <a href="#laby-project" class="project-link" data-toggle="modal">
+                <div class="project-hover">
+                  <div class="project-hover-content">
+                    <h3 class="project-name">Labyrinthe</h3>
+
+                    <div class="project-text">Jeu du labyrinthe en NodeJS dans le cadre scolaire</div>
+                  </div>
+                </div>
+                <img src="assets/img/laby-chat.png" class="img-responsive" alt="labyrinthe" />
+              </a>
+            </div>
+
+            <div class="project-box">
+              <a href="#egp-project" class="project-link" data-toggle="modal">
+                <div class="project-hover">
+                  <div class="project-hover-content">
+                    <h3 class="project-name">Team EGP18</h3>
+
+                    <div class="project-text">Site web du commanditaire du projet tutoré</div>
+                  </div>
+                </div>
+                <img src="assets/img/egp18.png" class="img-responsive" alt="Projet 5" />
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section class="contact">
+          <h3>Contact</h3>
+          <hr />
+          <div class="container">
+            <div>Pour une prise de contact, envoyez un mail à : <span class="email">farooq.asmaa@gmail.com</span></div>
+            <div class="social-networks">
+              <div>Ou retrouvez-moi sur les réseaux sociaux :</div>
+              <div class="social-networks-links">
+                <a href="https://www.facebook.com/asmaa.frq" target="_blank">
+                  <i class="fa fa-facebook-official fa-3x"></i>
+                </a>
+                <a href="https://fr.linkedin.com/pub/asmaa-farooq/107/23b/219">
+                  <i class="fa fa-linkedin fa-3x"></i>
+                </a>
+                <a href="https://jsfiddle.net/user/Kimimo/">
+                  <i class="fa fa-jsfiddle fa-3x"></i>
+                </a>
+                <a href="https://github.com/Shindraela">
+                  <i class="fa fa-github fa-3x"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <footer>
+          <div class="container">
+            <div>
+              <ul class="quicklinks">
+                <li><a href="#homepage"  class="page-scroll">Accueil</a></li>
+                <li><a href="mentions.html" target="_blank">Mentions Légales</a></li>
+              </ul>
+            </div>
+            <div>
+              <div class="logo"></div>
+            </div>
+            <div class="copyright">Copyright &copy; Farooq Asmaa 2017</div>            
+          </div>        
+        </footer>
+      </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/underscore.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
 </html>
