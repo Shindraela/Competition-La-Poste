@@ -5,7 +5,7 @@
 			<li><a href="#">Premium</a></li>
 			<li><a href="#">Blog</a></li>
 			<li>
-				<h1 class="logo"><a href="#"></a></h1>
+				<div class="logo"><a href="#"></a></div>
 			</li>
 			<li><a href="#">FR</a></li>
 			<li><a href="#">Se connecter</a></li>
