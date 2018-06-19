@@ -66,6 +66,8 @@ a {
 .header {
 	padding-top: .5em;
 	padding-bottom: .5em;
+	padding-left: 5px;
+	padding-right: 5px;
 	border: 0;
 	background-color: transparent;
 }
@@ -82,7 +84,7 @@ a {
 	color: #ffffff;
 	font-size: 16px;
 	background: #59d78e;
-	padding: 5px 25px 5px 25px !important;
+	padding: 5px 22px 5px 22px !important;
 	text-decoration: none;
 	font-weight: bold;
 }
@@ -259,6 +261,7 @@ a {
   background-position: center;
   text-align: center;
   position: relative;
+  height: 800px !important;
 }
 
 .wrap .header {
