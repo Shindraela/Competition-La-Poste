@@ -1,19 +1,7 @@
-// jQuery for page scrolling feature
-$(function () {
-  $('a.page-scroll').bind('click', function (event) {
-    var $anchor = $(this);
-    $('html, body').stop().animate({
-      scrollTop: $($anchor.attr('href')).offset().top
-    }, 1500, 'easeInOutExpo');
-    event.preventDefault();
-  });
-});
-
 (function () {
 
   // resize helpers
   function onResize() {
-
     // auto resize header
     $('#homepage').height($(window).height());
   }
