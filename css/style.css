@@ -121,6 +121,10 @@ a {
   background-color: transparent;
 }
 
+i {
+  margin-left:2px;
+}
+
 /* Changement scroll menu */
 .scrolled {
   background-color: #E5E5E5;
