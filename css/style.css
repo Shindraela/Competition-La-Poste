@@ -59,7 +59,7 @@ h1 {
 .wrap .main-container section.products h1,
 .wrap .main-container section.dashboard h1 {
   font-size: 2em;
-  text-align:left;
+  text-align: left;
 }
 
 .row-reverse {
@@ -115,10 +115,10 @@ h1 {
 
 .main-nav a {
   color: #FFFFFF;
-  font-size: .99em;
+  font-size: .8em;
 }
 
-.main-nav a:hover {
+.main-nav a:hover:not(.subscribe-btn) {
   color: #FFFFFF;
   opacity: 0.8;
 }
@@ -149,11 +149,12 @@ i {
 /* Changement scroll menu */
 
 .scrolled {
-  background-color: #E5E5E5;
+  background-color: #E6E6E6;
+  opacity:0.9;
 }
 
-.textscrolled {
-  color: #000000 !important;
+.textscrolled:not(.subscribe-btn) {
+  color: #585858 !important;
 }
 
 .logoscrolled {
@@ -242,7 +243,7 @@ i {
 }
 
 .wrap .homepage .container .homepage-text h1 {
-  font-size: 4em;
+  font-size: 3.2em;
   margin-top: 0;
 }
 
@@ -253,7 +254,6 @@ i {
 }
 
 .wrap .homepage .container .homepage-text .discover-button {
-  font-size: 1.5em;
   margin: 0 auto;
   margin-top: 40px;
   margin-bottom: 20px;
@@ -290,6 +290,7 @@ i {
 }
 
 /* Bouton découvrir */
+
 .discover-button {
   opacity: 0.8;
   background: #59d78e;
@@ -302,9 +303,9 @@ i {
   -moz-border-radius: 35;
   border-radius: 35px;
   font-family: Arial;
+  font-size: 1.2em;
   color: #ffffff;
-  font-size: 17px;
-  padding: 15px 30px 15px 30px !important;
+  padding: 20px 35px 20px 35px !important;
   text-decoration: none;
 }
 
@@ -327,6 +328,7 @@ i {
 
 .wrap .main-container section.products {
   position: relative;
+  padding-bottom: 0;
 }
 
 .wrap .main-container section.products .telephone-section1 {
@@ -343,6 +345,7 @@ i {
 /*                              DASHBOARD                                    */
 
 /* ------------------------------------------------------------------------- */
+
 .wrap .main-container section.dashboard {
   position: relative;
   padding-left: 5%;
@@ -351,7 +354,11 @@ i {
 
 .wrap .main-container section.dashboard .telephone-section2 {
   position: relative;
-  margin-top: -150px;
+}
+
+.wrap .main-container section.dashboard .text {
+  margin-left: 9px;
+  margin-right: 122px;
 }
 
 /* ------------------------------------------------------------------------- */
@@ -361,14 +368,12 @@ i {
 /* ------------------------------------------------------------------------- */
 
 .wrap .main-container section.recipes .text {
-  margin-left: -130px;
-  margin-right: 130px;
-  margin-top: -320px;
+  margin-left: -209px;
+  margin-right: 122px;
 }
 
 .wrap .main-container section.recipes .telephone-section3 {
   position: relative;
-  margin-top: -300px;
 }
 
 /* ------------------------------------------------------------------------- */
@@ -378,15 +383,11 @@ i {
 /* ------------------------------------------------------------------------- */
 
 .wrap .main-container section.blog .text {
-  margin-left: 130px;
   margin-right: -130px;
-  margin-top: -320px;
 }
-
 
 .wrap .main-container section.blog .telephone-section4 {
   position: relative;
-  margin-top: -300px;
 }
 
 /* ------------------------------------------------------------------------- */
@@ -395,13 +396,9 @@ i {
 
 /* ------------------------------------------------------------------------- */
 
-.wrap .main-container section.opinion {
-
-}
-
 .wrap .main-container section.opinion img {
   position: relative;
-  margin-top: -150px;
+  margin: 10px;
 }
 
 /* ------------------------------------------------------------------------- */
@@ -446,6 +443,7 @@ i {
 }
 
 /* Bouton premium */
+
 .obtain-button {
   opacity: 0.8;
   background: #59d78e;
@@ -463,6 +461,7 @@ i {
   padding: 15px 30px 15px 30px !important;
   text-decoration: none;
 }
+
 .obtain-button:hover {
   opacity: 1;
   background: #4dba7b;
@@ -473,6 +472,7 @@ i {
   background-image: linear-gradient(to right, #4dba7b, #3185bd);
   text-decoration: none;
 }
+
 .word-premium {
   font-size: 19px;
 }
