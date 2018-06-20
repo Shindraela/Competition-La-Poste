@@ -336,8 +336,14 @@ i {
 
 /* ------------------------------------------------------------------------- */
 .wrap .main-container section.dashboard {
+  position: relative;
   padding-left: 5%;
   padding-right: 0;
+}
+
+.wrap .main-container section.dashboard .telephone-section2 {
+  position: relative;
+  margin-top: -150px;
 }
 
 /* ------------------------------------------------------------------------- */
@@ -350,6 +356,11 @@ i {
 
 }
 
+.wrap .main-container section.recipes .telephone-section3 {
+  position: relative;
+  margin-top: -300px;
+}
+
 /* ------------------------------------------------------------------------- */
 
 /*                              BLOG                                         */
@@ -360,6 +371,11 @@ i {
 
 }
 
+.wrap .main-container section.blog .telephone-section4 {
+  position: relative;
+  margin-top: -300px;
+}
+
 /* ------------------------------------------------------------------------- */
 
 /*                              OPINION                                      */
@@ -368,6 +384,11 @@ i {
 
 .wrap .main-container section.opinion {
 
+}
+
+.wrap .main-container section.opinion img {
+  position: relative;
+  margin-top: -150px;
 }
 
 /* ------------------------------------------------------------------------- */
