@@ -34,8 +34,8 @@ h1 {
   box-sizing: inherit;
 }
 
-.light-grey-background {
-  background-color: #FBFCFF;
+.light-blue-background {
+  background-color: #EDF9F9;
 }
 
 .wrap .main-container section.products,
@@ -59,6 +59,7 @@ h1 {
 .wrap .main-container section.products h1,
 .wrap .main-container section.dashboard h1 {
   font-size: 2em;
+  text-align:left;
 }
 
 .row-reverse {
