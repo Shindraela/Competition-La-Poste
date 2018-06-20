@@ -16,7 +16,6 @@ html {
 }
 a {
   text-decoration: none !important;
-  color: #000000;
 }
 
 *,
@@ -336,8 +335,10 @@ header a {
 .wrap .main-container footer {
   padding: 1.5%;
   text-align: center;
-  color: white;
   background-color: #E5E5E5;
+}
+.wrap .main-container footer a {
+  color: #000000;
 }
 .wrap .main-container footer .container {
   display: flex;
