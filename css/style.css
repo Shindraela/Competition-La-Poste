@@ -54,6 +54,13 @@ h1 {
   text-align: justify;
 }
 
+.wrap .main-container section.recipes h1,
+.wrap .main-container section.blog h1,
+.wrap .main-container section.products h1,
+.wrap .main-container section.dashboard h1 {
+  font-size: 2em;
+}
+
 .row-reverse {
   flex-direction: row-reverse !important;
 }
@@ -352,8 +359,10 @@ i {
 
 /* ------------------------------------------------------------------------- */
 
-.wrap .main-container section.recipes {
-
+.wrap .main-container section.recipes .text {
+  margin-left: -130px;
+  margin-right: 130px;
+  margin-top: -320px;
 }
 
 .wrap .main-container section.recipes .telephone-section3 {
@@ -367,9 +376,12 @@ i {
 
 /* ------------------------------------------------------------------------- */
 
-.wrap .main-container section.blog  {
-
+.wrap .main-container section.blog .text {
+  margin-left: 130px;
+  margin-right: -130px;
+  margin-top: -320px;
 }
+
 
 .wrap .main-container section.blog .telephone-section4 {
   position: relative;
