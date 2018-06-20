@@ -1,9 +1,6 @@
 /* ------------------------------------------------------------------------- */
-
 /*                                 LAYOUT                                    */
-
 /* ------------------------------------------------------------------------- */
-
 html,
 body {
   padding: 0;
@@ -67,11 +64,8 @@ h1 {
 }
 
 /* ------------------------------------------------------------------------- */
-
 /*                                 MENU                                      */
-
 /* ------------------------------------------------------------------------- */
-
 * {
   box-sizing: border-box;
 }
@@ -147,7 +141,6 @@ i {
 }
 
 /* Changement scroll menu */
-
 .scrolled {
   background-color: #E6E6E6;
   opacity: 0.9;
@@ -162,7 +155,6 @@ i {
 }
 
 /* Bouton s'enregistrer */
-
 .subscribe-btn {
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
@@ -175,14 +167,12 @@ i {
   text-decoration: none;
   font-weight: bold;
 }
-
 .subscribe-btn:hover {
   background: #4dba7b;
   text-decoration: none;
 }
 
 /* Media Queries */
-
 @media (min-width: 769px) {
   .header,
   .main-nav {
@@ -196,7 +186,6 @@ i {
     max-width: 1150px;
   }
 }
-
 @media (min-width: 1025px) {
   .header {
     flex-direction: row;
@@ -205,11 +194,8 @@ i {
 }
 
 /* ------------------------------------------------------------------------- */
-
 /*                                 HEADER                                    */
-
 /* ------------------------------------------------------------------------- */
-
 .wrap .homepage {
   background-image: url(../assets/img/background.png);
   background-repeat: repeat;
@@ -290,7 +276,6 @@ i {
 }
 
 /* Bouton découvrir */
-
 .discover-button {
   opacity: 0.8;
   background: #59d78e;
@@ -308,7 +293,6 @@ i {
   padding: 20px 35px 20px 35px !important;
   text-decoration: none;
 }
-
 .discover-button:hover {
   opacity: 1;
   background: #4dba7b;
@@ -321,11 +305,8 @@ i {
 }
 
 /* ------------------------------------------------------------------------- */
-
 /*                              PRODUCTS                                     */
-
 /* ------------------------------------------------------------------------- */
-
 .wrap .main-container section.products {
   position: relative;
   padding-bottom: 0;
@@ -341,11 +322,8 @@ i {
 }
 
 /* ------------------------------------------------------------------------- */
-
 /*                              DASHBOARD                                    */
-
 /* ------------------------------------------------------------------------- */
-
 .wrap .main-container section.dashboard {
   position: relative;
   padding-left: 5%;
@@ -362,11 +340,8 @@ i {
 }
 
 /* ------------------------------------------------------------------------- */
-
 /*                              RECIPES                                      */
-
 /* ------------------------------------------------------------------------- */
-
 .wrap .main-container section.recipes .text {
   margin-left: -209px;
   margin-right: 122px;
@@ -377,11 +352,8 @@ i {
 }
 
 /* ------------------------------------------------------------------------- */
-
 /*                              BLOG                                         */
-
 /* ------------------------------------------------------------------------- */
-
 .wrap .main-container section.blog .text {
   margin-right: -225px;
   margin-left: 100px;
@@ -392,22 +364,16 @@ i {
 }
 
 /* ------------------------------------------------------------------------- */
-
 /*                              OPINION                                      */
-
 /* ------------------------------------------------------------------------- */
-
 .wrap .main-container section.opinion img {
   position: relative;
   margin: 10px;
 }
 
 /* ------------------------------------------------------------------------- */
-
 /*                              PREMIUM                                      */
-
 /* ------------------------------------------------------------------------- */
-
 .wrap .main-container section.premium {
   background-image: url(../assets/img/background-premium.jpg);
   background-repeat: no-repeat;
@@ -444,7 +410,6 @@ i {
 }
 
 /* Bouton premium */
-
 .obtain-button {
   opacity: 0.8;
   background: #59d78e;
@@ -462,7 +427,6 @@ i {
   padding: 15px 30px 15px 30px !important;
   text-decoration: none;
 }
-
 .obtain-button:hover {
   opacity: 1;
   background: #4dba7b;
@@ -485,11 +449,8 @@ i {
 }
 
 /* ------------------------------------------------------------------------- */
-
 /*                                   FOOTER                                  */
-
 /* ------------------------------------------------------------------------- */
-
 .wrap .main-container footer {
   padding: 1.5%;
   text-align: center;
