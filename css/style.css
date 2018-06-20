@@ -248,10 +248,6 @@ i {
 }
 
 .wrap .homepage .container .homepage-text .ticks-container .tick {
-  margin: 10px;
-}
-
-.wrap .homepage .container .homepage-text .ticks-container .tick {
   width: 50%;
   margin: 10px auto;
 }
@@ -383,7 +379,25 @@ i {
   justify-content: center;
 }
 
-.wrap .homepage .container .homepage-text {
+.wrap .main-container section.premium h1 {
+  font-family: "gilroylight", Arial, sans-serif;
+  color: #FFFFFF;
+}
+
+.wrap .main-container section.premium .ticks-container {
+  display: flex;
+  width: 90%;
+  margin: 20px auto;
+  color: #FFFFFF;
+}
+
+.wrap .main-container section.premium .ticks-container .tick {
+  width: 40%;
+  margin: 10px auto;
+}
+
+.bold {
+  font-family: "gilroyextrabold", Arial, sans-serif;
 }
 
 /* ------------------------------------------------------------------------- */
