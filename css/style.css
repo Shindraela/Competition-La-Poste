@@ -1,4 +1,3 @@
-
 /* ------------------------------------------------------------------------- */
 /*                                 LAYOUT                                    */
 /* ------------------------------------------------------------------------- */
@@ -131,35 +130,6 @@ header a {
   text-decoration: none;
 }
 
-/* Bouton découvrir */
-.discover-button {
-  opacity: 0.8;
-  background: #59d78e;
-  background-image: -webkit-linear-gradient(left, #59d78e, #3291c5);
-  background-image: -moz-linear-gradient(left, #59d78e, #3291c5);
-  background-image: -ms-linear-gradient(left, #59d78e, #3291c5);
-  background-image: -o-linear-gradient(left, #59d78e, #3291c5);
-  background-image: linear-gradient(to right, #59d78e, #3291c5);
-  -webkit-border-radius: 35;
-  -moz-border-radius: 35;
-  border-radius: 35px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 17px;
-  padding: 15px 30px 15px 30px !important;
-  text-decoration: none;
-}
-.discover-button:hover {
-  opacity: 1;
-  background: #4dba7b;
-  background-image: -webkit-linear-gradient(left, #4dba7b, #3185bd);
-  background-image: -moz-linear-gradient(left, #4dba7b, #3185bd);
-  background-image: -ms-linear-gradient(left, #4dba7b, #3185bd);
-  background-image: -o-linear-gradient(left, #4dba7b, #3185bd);
-  background-image: linear-gradient(to right, #4dba7b, #3185bd);
-  text-decoration: none;
-}
-
 /* Media Queries */
 @media (min-width: 769px) {
   .header,
@@ -217,6 +187,35 @@ header a {
   padding: 60px 100px;
   border: 4px solid black;
   background-color: #6D071A;
+}
+
+/* Bouton découvrir */
+.discover-button {
+  opacity: 0.8;
+  background: #59d78e;
+  background-image: -webkit-linear-gradient(left, #59d78e, #3291c5);
+  background-image: -moz-linear-gradient(left, #59d78e, #3291c5);
+  background-image: -ms-linear-gradient(left, #59d78e, #3291c5);
+  background-image: -o-linear-gradient(left, #59d78e, #3291c5);
+  background-image: linear-gradient(to right, #59d78e, #3291c5);
+  -webkit-border-radius: 35;
+  -moz-border-radius: 35;
+  border-radius: 35px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 17px;
+  padding: 15px 30px 15px 30px !important;
+  text-decoration: none;
+}
+.discover-button:hover {
+  opacity: 1;
+  background: #4dba7b;
+  background-image: -webkit-linear-gradient(left, #4dba7b, #3185bd);
+  background-image: -moz-linear-gradient(left, #4dba7b, #3185bd);
+  background-image: -ms-linear-gradient(left, #4dba7b, #3185bd);
+  background-image: -o-linear-gradient(left, #4dba7b, #3185bd);
+  background-image: linear-gradient(to right, #4dba7b, #3185bd);
+  text-decoration: none;
 }
 
 /* ------------------------------------------------------------------------- */
