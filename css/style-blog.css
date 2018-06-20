@@ -1,0 +1,532 @@
+/* ------------------------------------------------------------------------- */
+
+/*                                 LAYOUT                                    */
+
+/* ------------------------------------------------------------------------- */
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "gilroymedium", Arial, sans-serif;
+  font-size: 1em;
+  background-color: transparent !important;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+h1 {
+  font-family: "gilroyextrabold", Arial, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.light-blue-background {
+  background-color: #EDF9F9;
+}
+
+.wrap .main-container section.products,
+.wrap .main-container section.dashboard,
+.wrap .main-container section.recipes,
+.wrap .main-container section.blog,
+.wrap .main-container section.opinion,
+.wrap .main-container section.premium {
+  width: 100%;
+  height: 100%;
+  padding: 2% 5%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  text-align: justify;
+}
+
+.wrap .main-container section.recipes h1,
+.wrap .main-container section.blog h1,
+.wrap .main-container section.products h1,
+.wrap .main-container section.dashboard h1 {
+  font-size: 2em;
+  text-align: left;
+}
+
+.row-reverse {
+  flex-direction: row-reverse !important;
+}
+
+/* ------------------------------------------------------------------------- */
+
+/*                                 MENU                                      */
+
+/* ------------------------------------------------------------------------- */
+
+* {
+  box-sizing: border-box;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.logo {
+  margin: 0;
+  background-position: center;
+  background-image: url(../assets/img/greentips-logo.png);
+  background-repeat: no-repeat;
+  background-size: 52%;
+  text-align: center;
+}
+
+.logo a {
+  height: 45px;
+  width: 187px;
+}
+
+.main-nav {
+  margin-top: 5px;
+}
+
+.logo a,
+.main-nav a {
+  padding: 10px 15px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  display: block;
+}
+
+.main-nav a {
+  color: #FFFFFF;
+  font-size: .8em;
+}
+
+.main-nav a:hover:not(.subscribe-btn) {
+  color: #FFFFFF;
+  opacity: 0.8;
+}
+
+.first-nav li:last-child {
+  position: absolute;
+  right: 42%;
+}
+
+.second-nav li:last-child {
+  align-self: center;
+}
+
+.header {
+  padding-top: .5em;
+  padding-bottom: .5em;
+  padding-left: 5px;
+  padding-right: 20px;
+  border: 0;
+  background-color: transparent;
+  z-index: 100;
+}
+
+i {
+  margin-left: 2px;
+}
+
+/* Changement scroll menu */
+
+.scrolled {
+  background-color: #E6E6E6;
+  opacity: 0.9;
+}
+
+.textscrolled:not(.subscribe-btn) {
+  color: #585858 !important;
+}
+
+.logoscrolled {
+  background-image: url(../assets/img/greentips-logo-footer.png) !important;
+}
+
+/* Bouton s'enregistrer */
+
+.subscribe-btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  background: #59d78e;
+  padding: 5px 22px 5px 22px !important;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.subscribe-btn:hover {
+  background: #4dba7b;
+  text-decoration: none;
+}
+
+/* Media Queries */
+
+@media (min-width: 769px) {
+  .header,
+  .main-nav {
+    display: flex;
+  }
+  .header .header {
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1150px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+/* ------------------------------------------------------------------------- */
+
+/*                                 HEADER                                    */
+
+/* ------------------------------------------------------------------------- */
+
+.wrap .homepage {
+  background-image: url(../assets/img/background-blog.png);
+  background-repeat: repeat;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  text-align: center;
+  position: relative;
+  height: 800px !important;
+  margin-top: -100px;
+}
+
+.wrap .homepage .container .homepage-text,
+.wrap .main-container .premium .premium-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.wrap .main-container .premium .premium-text {
+  margin-top: 0;
+  align-items: center;
+}
+
+.wrap .homepage .container .homepage-text .baseline {
+  text-transform: uppercase;
+}
+
+.wrap .homepage .container .homepage-text h1 {
+  font-size: 2.2em;
+  margin-top: 0;
+  width: 60%;
+  margin-left: 5;
+  margin: 0 auto;
+}
+
+.wrap .homepage .container .homepage-text .images-container .playstore,
+.wrap .homepage .container .homepage-text .images-container .appstore {
+  width: 22%;
+  margin: 0 auto;
+}
+
+.wrap .homepage .container .homepage-text .discover-button {
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.ticks-container {
+  display: flex;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.ticks-container .tick {
+  width: 50%;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.wrap .header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.wrap header .container,
+.wrap .main-container .premium .premium-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+/* Bouton découvrir */
+
+.discover-button {
+  opacity: 0.8;
+  background: #59d78e;
+  background-image: -webkit-linear-gradient(left, #59d78e, #3291c5);
+  background-image: -moz-linear-gradient(left, #59d78e, #3291c5);
+  background-image: -ms-linear-gradient(left, #59d78e, #3291c5);
+  background-image: -o-linear-gradient(left, #59d78e, #3291c5);
+  background-image: linear-gradient(to right, #59d78e, #3291c5);
+  -webkit-border-radius: 35;
+  -moz-border-radius: 35;
+  border-radius: 35px;
+  font-family: Arial;
+  font-size: 1.2em;
+  color: #ffffff;
+  padding: 20px 35px 20px 35px !important;
+  text-decoration: none;
+}
+
+.discover-button:hover {
+  opacity: 1;
+  background: #4dba7b;
+  background-image: -webkit-linear-gradient(left, #4dba7b, #3185bd);
+  background-image: -moz-linear-gradient(left, #4dba7b, #3185bd);
+  background-image: -ms-linear-gradient(left, #4dba7b, #3185bd);
+  background-image: -o-linear-gradient(left, #4dba7b, #3185bd);
+  background-image: linear-gradient(to right, #4dba7b, #3185bd);
+  text-decoration: none;
+}
+
+/* ------------------------------------------------------------------------- */
+
+/*                              PRODUCTS                                     */
+
+/* ------------------------------------------------------------------------- */
+
+.wrap .main-container section.products {
+  position: relative;
+  padding-bottom: 0;
+}
+
+.wrap .main-container section.products .telephone-section1 {
+  position: relative;
+  margin-top: -160px;
+}
+
+.wrap .main-container section.products .text {
+  width: 515px;
+}
+
+/* ------------------------------------------------------------------------- */
+
+/*                              DASHBOARD                                    */
+
+/* ------------------------------------------------------------------------- */
+
+.wrap .main-container section.dashboard {
+  position: relative;
+  padding-left: 5%;
+  padding-right: 0;
+}
+
+.wrap .main-container section.dashboard .telephone-section2 {
+  position: relative;
+}
+
+.wrap .main-container section.dashboard .text {
+  margin-left: 9px;
+  margin-right: 122px;
+}
+
+/* ------------------------------------------------------------------------- */
+
+/*                              RECIPES                                      */
+
+/* ------------------------------------------------------------------------- */
+
+.wrap .main-container section.recipes .text {
+  margin-left: -209px;
+  margin-right: 122px;
+}
+
+.wrap .main-container section.recipes .telephone-section3 {
+  position: relative;
+}
+
+/* ------------------------------------------------------------------------- */
+
+/*                              BLOG                                         */
+
+/* ------------------------------------------------------------------------- */
+
+.wrap .main-container section.blog .text {
+  margin-right: -225px;
+  margin-left: 100px;
+}
+
+.wrap .main-container section.blog .telephone-section4 {
+  position: relative;
+}
+
+/* ------------------------------------------------------------------------- */
+
+/*                              OPINION                                      */
+
+/* ------------------------------------------------------------------------- */
+
+.wrap .main-container section.opinion img {
+  position: relative;
+  margin: 10px;
+}
+
+/* ------------------------------------------------------------------------- */
+
+/*                              PREMIUM                                      */
+
+/* ------------------------------------------------------------------------- */
+
+.wrap .main-container section.premium {
+  background-image: url(../assets/img/background-premium.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.wrap .main-container section.premium h1 {
+  font-family: "gilroylight", Arial, sans-serif;
+  color: #FFFFFF;
+}
+
+/* .wrap .main-container section.premium .ticks-container {
+  display: flex;
+  width: 90%;
+  margin: 20px auto;
+  color: #FFFFFF;
+}
+
+.wrap .main-container section.premium .ticks-container .tick {
+  width: 40%;
+  margin: 10px auto;
+} */
+
+.bold {
+  font-family: "gilroyextrabold", Arial, sans-serif;
+}
+
+/* Bouton premium */
+
+.obtain-button {
+  opacity: 0.8;
+  background: #59d78e;
+  background-image: -webkit-linear-gradient(left, #59d78e, #3291c5);
+  background-image: -moz-linear-gradient(left, #59d78e, #3291c5);
+  background-image: -ms-linear-gradient(left, #59d78e, #3291c5);
+  background-image: -o-linear-gradient(left, #59d78e, #3291c5);
+  background-image: linear-gradient(to right, #59d78e, #3291c5);
+  -webkit-border-radius: 35;
+  -moz-border-radius: 35;
+  border-radius: 35px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 15px 30px 15px 30px !important;
+  text-decoration: none;
+}
+
+.obtain-button:hover {
+  opacity: 1;
+  background: #4dba7b;
+  background-image: -webkit-linear-gradient(left, #4dba7b, #3185bd);
+  background-image: -moz-linear-gradient(left, #4dba7b, #3185bd);
+  background-image: -ms-linear-gradient(left, #4dba7b, #3185bd);
+  background-image: -o-linear-gradient(left, #4dba7b, #3185bd);
+  background-image: linear-gradient(to right, #4dba7b, #3185bd);
+  text-decoration: none;
+}
+
+.word-premium {
+  font-size: 19px;
+}
+
+.obtain-button span,
+.obtain-button .img-container {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* ------------------------------------------------------------------------- */
+
+/*                                   FOOTER                                  */
+
+/* ------------------------------------------------------------------------- */
+
+.wrap .main-container footer {
+  padding: 1.5%;
+  text-align: center;
+  background-color: #E5E5E5;
+}
+
+.wrap .main-container footer a {
+  color: #000000;
+}
+
+.wrap .main-container footer .container {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  margin: 0 auto;
+}
+
+.wrap .main-container footer .container .footer-logo,
+.wrap .main-container footer .container .social-links {
+  margin: 15px 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.wrap .main-container footer .container .social-links .twitter-container,
+.wrap .main-container footer .container .social-links .fb-container,
+.wrap .main-container footer .container .social-links .insta-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrap .main-container footer .container .social-links .twitter-container a,
+.wrap .main-container footer .container .social-links .fb-container a,
+.wrap .main-container footer .container .social-links .insta-container a {
+  margin-top: 30px;
+}
