@@ -28,6 +28,26 @@ a {
   background-color: #FBFCFF;
 }
 
+.wrap .main-container section.products,
+.wrap .main-container section.dashboard,
+.wrap .main-container section.recipes,
+.wrap .main-container section.blog,
+.wrap .main-container section.opinion,
+.wrap .main-container section.premium {
+  width: 100%;
+  height: 100%;
+  padding: 5%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  text-align: justify;
+}
+
+.row-reverse {
+  flex-direction: row-reverse !important;
+}
+
 /* ------------------------------------------------------------------------- */
 /*                                 MENU                                      */
 /* ------------------------------------------------------------------------- */
@@ -183,11 +203,6 @@ header a {
   justify-content: center;
   color: white;
 }
-.wrap header .container .header-container {
-  padding: 60px 100px;
-  border: 4px solid black;
-  background-color: #6D071A;
-}
 
 /* Bouton découvrir */
 .discover-button {
@@ -224,7 +239,6 @@ header a {
 .wrap .main-container section.products .container {
   border-top: 1px solid grey;
   padding-top: 20px;
-  font-family: "robotoitalic", Helvetica, Arial, sans-serif;
   /*
     display: flex;
     flex-wrap: wrap;
@@ -241,7 +255,6 @@ header a {
 .wrap .main-container section.dashboard .container {
   border-top: 1px solid grey;
   padding-top: 20px;
-  font-family: "robotoitalic", Helvetica, Arial, sans-serif;
   /*
     display: flex;
     flex-wrap: wrap;
@@ -258,7 +271,6 @@ header a {
 .wrap .main-container section.recipes .container {
   border-top: 1px solid grey;
   padding-top: 20px;
-  font-family: "robotoitalic", Helvetica, Arial, sans-serif;
   /*
     display: flex;
     flex-wrap: wrap;
@@ -275,7 +287,6 @@ header a {
 .wrap .main-container section.blog .container {
   border-top: 1px solid grey;
   padding-top: 20px;
-  font-family: "robotoitalic", Helvetica, Arial, sans-serif;
   /*
     display: flex;
     flex-wrap: wrap;
@@ -292,7 +303,6 @@ header a {
 .wrap .main-container section.opinion .container {
   border-top: 1px solid grey;
   padding-top: 20px;
-  font-family: "robotoitalic", Helvetica, Arial, sans-serif;
   /*
     display: flex;
     flex-wrap: wrap;
@@ -309,7 +319,6 @@ header a {
 .wrap .main-container section.premium .container {
   border-top: 1px solid grey;
   padding-top: 20px;
-  font-family: "robotoitalic", Helvetica, Arial, sans-serif;
   /*
     display: flex;
     flex-wrap: wrap;
