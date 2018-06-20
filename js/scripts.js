@@ -16,6 +16,7 @@
   }
 
   $(document).ready(function () {
+
     $(window).bind('resize', _.throttle(onResize, 100));
     onResize();
 
