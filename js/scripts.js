@@ -23,11 +23,15 @@
     onScroll();
 
     $(window).bind('scroll', function () {
-      var distance = 500;
+      var distance = 70;
       if ($(window).scrollTop() > distance) {
         $('.header').addClass('scrolled');
+        $('a').addClass('textscrolled');
+        $('.logo').addClass('logoscrolled');
       } else {
         $('.header').removeClass('scrolled');
+        $('a').removeClass('textscrolled');
+        $('.logo').removeClass('logoscrolled');
       }
     });
   });
