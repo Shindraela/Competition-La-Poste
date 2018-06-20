@@ -1,19 +1,25 @@
 /* ------------------------------------------------------------------------- */
+
 /*                                 LAYOUT                                    */
+
 /* ------------------------------------------------------------------------- */
+
 html,
 body {
   padding: 0;
   margin: 0;
 }
+
 body {
   font-family: "robotoregular", Helvetica, Arial, sans-serif;
   font-size: 1em;
   background-color: transparent !important;
 }
+
 html {
   box-sizing: border-box;
 }
+
 a {
   text-decoration: none !important;
 }
@@ -49,7 +55,9 @@ a {
 }
 
 /* ------------------------------------------------------------------------- */
+
 /*                                 MENU                                      */
+
 /* ------------------------------------------------------------------------- */
 
 * {
@@ -119,24 +127,29 @@ a {
   padding-right: 20px;
   border: 0;
   background-color: transparent;
+  z-index:100;
 }
 
 i {
-  margin-left:2px;
+  margin-left: 2px;
 }
 
 /* Changement scroll menu */
+
 .scrolled {
   background-color: #E5E5E5;
 }
+
 .textscrolled {
   color: #000000 !important;
 }
+
 .logoscrolled {
   background-image: url(../assets/img/greentips-logo-footer.png) !important;
 }
 
 /* Bouton s'enregistrer */
+
 .subscribe-btn {
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
@@ -149,12 +162,14 @@ i {
   text-decoration: none;
   font-weight: bold;
 }
+
 .subscribe-btn:hover {
   background: #4dba7b;
   text-decoration: none;
 }
 
 /* Media Queries */
+
 @media (min-width: 769px) {
   .header,
   .main-nav {
@@ -168,6 +183,7 @@ i {
     max-width: 1150px;
   }
 }
+
 @media (min-width: 1025px) {
   .header {
     flex-direction: row;
@@ -176,8 +192,11 @@ i {
 }
 
 /* ------------------------------------------------------------------------- */
+
 /*                                 HEADER                                    */
+
 /* ------------------------------------------------------------------------- */
+
 .wrap .homepage {
   background-image: url(../assets/img/background.png);
   background-repeat: repeat;
@@ -192,47 +211,57 @@ i {
   height: 800px !important;
   margin-top: -100px;
 }
+
 .wrap .homepage .container .homepage-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-top: 150px;
 }
+
 .wrap .homepage .container .homepage-text .baseline {
   text-transform: uppercase;
 }
+
 .wrap .homepage .container .homepage-text h1 {
   font-size: 4em;
   margin-top: 0;
 }
+
 .wrap .homepage .container .homepage-text .images-container .playstore,
 .wrap .homepage .container .homepage-text .images-container .appstore {
   width: 22%;
   margin: 0 auto;
 }
+
 .wrap .homepage .container .homepage-text .discover-button {
   font-size: 1.5em;
   margin: 0 auto;
   margin-top: 60px;
   margin-bottom: 25px;
 }
+
 .wrap .homepage .container .homepage-text .ticks-container {
   display: flex;
   width: 90%;
   margin: 30px auto;
 }
+
 .wrap .homepage .container .homepage-text .ticks-container .tick {
   margin: 10px;
 }
+
 .wrap .homepage .container .homepage-text .ticks-container .tick {
   width: 50%;
   margin: 10px auto;
 }
+
 .wrap .header {
   position: fixed;
   top: 0;
   width: 100%;
 }
+
 .wrap header .container {
   width: 100%;
   height: 100%;
@@ -245,6 +274,7 @@ i {
 }
 
 /* Bouton découvrir */
+
 .discover-button {
   opacity: 0.8;
   background: #59d78e;
@@ -262,6 +292,7 @@ i {
   padding: 15px 30px 15px 30px !important;
   text-decoration: none;
 }
+
 .discover-button:hover {
   opacity: 1;
   background: #4dba7b;
@@ -274,9 +305,13 @@ i {
 }
 
 /* ------------------------------------------------------------------------- */
+
 /*                              PRODUCTS                                     */
+
 /* ------------------------------------------------------------------------- */
+
 .wrap .main-container section.products .container {
+  position: relative;
   border-top: 1px solid grey;
   padding-top: 20px;
   /*
@@ -289,9 +324,17 @@ i {
   */
 }
 
+.telephone-section1 {
+  position: relative;
+  margin-top: -160px;
+}
+
 /* ------------------------------------------------------------------------- */
+
 /*                              DASHBOARD                                    */
+
 /* ------------------------------------------------------------------------- */
+
 .wrap .main-container section.dashboard .container {
   border-top: 1px solid grey;
   padding-top: 20px;
@@ -306,8 +349,11 @@ i {
 }
 
 /* ------------------------------------------------------------------------- */
+
 /*                              RECIPES                                      */
+
 /* ------------------------------------------------------------------------- */
+
 .wrap .main-container section.recipes .container {
   border-top: 1px solid grey;
   padding-top: 20px;
@@ -322,8 +368,11 @@ i {
 }
 
 /* ------------------------------------------------------------------------- */
+
 /*                              BLOG                                         */
+
 /* ------------------------------------------------------------------------- */
+
 .wrap .main-container section.blog .container {
   border-top: 1px solid grey;
   padding-top: 20px;
@@ -338,8 +387,11 @@ i {
 }
 
 /* ------------------------------------------------------------------------- */
+
 /*                              OPINION                                      */
+
 /* ------------------------------------------------------------------------- */
+
 .wrap .main-container section.opinion .container {
   border-top: 1px solid grey;
   padding-top: 20px;
@@ -354,8 +406,11 @@ i {
 }
 
 /* ------------------------------------------------------------------------- */
+
 /*                              PREMIUM                                      */
+
 /* ------------------------------------------------------------------------- */
+
 .wrap .main-container section.premium .container {
   border-top: 1px solid grey;
   padding-top: 20px;
@@ -370,22 +425,28 @@ i {
 }
 
 /* ------------------------------------------------------------------------- */
+
 /*                                   FOOTER                                  */
+
 /* ------------------------------------------------------------------------- */
+
 .wrap .main-container footer {
   padding: 1.5%;
   text-align: center;
   background-color: #E5E5E5;
 }
+
 .wrap .main-container footer a {
   color: #000000;
 }
+
 .wrap .main-container footer .container {
   display: flex;
   flex-direction: column;
   width: 35%;
   margin: 0 auto;
 }
+
 .wrap .main-container footer .container .footer-logo,
 .wrap .main-container footer .container .social-links,
 .wrap .main-container footer .container .footer-links {
