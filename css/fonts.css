@@ -4,8 +4,8 @@
 
 @font-face {
     font-family: 'gilroyextrabold';
-    src: url('gilroy-extrabold.woff2') format('woff2'),
-         url('gilroy-extrabold.woff') format('woff');
+    src: url('../assets/fonts/gilroy-extrabold.woff2') format('woff2'),
+         url('../assets/fonts/gilroy-extrabold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -16,8 +16,8 @@
 
 @font-face {
     font-family: 'gilroylight';
-    src: url('gilroy-light.woff2') format('woff2'),
-         url('gilroy-light.woff') format('woff');
+    src: url('../assets/fonts/gilroy-light.woff2') format('woff2'),
+         url('../assets/fonts/gilroy-light.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -28,8 +28,8 @@
 
 @font-face {
     font-family: 'gilroymedium';
-    src: url('radomir-tinkov-gilroy-medium_1.woff2') format('woff2'),
-         url('radomir-tinkov-gilroy-medium_1.woff') format('woff');
+    src: url('../assets/fonts/radomir-tinkov-gilroy-medium_1.woff2') format('woff2'),
+         url('../assets/fonts/radomir-tinkov-gilroy-medium_1.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -40,8 +40,8 @@
 
 @font-face {
     font-family: 'gilroymedium';
-    src: url('radomir-tinkov-gilroy-medium.woff2') format('woff2'),
-         url('radomir-tinkov-gilroy-medium.woff') format('woff');
+    src: url('../assets/fonts/radomir-tinkov-gilroy-medium.woff2') format('woff2'),
+         url('../assets/fonts/radomir-tinkov-gilroy-medium.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -52,8 +52,8 @@
 
 @font-face {
     font-family: 'gilroyregular';
-    src: url('radomir-tinkov-gilroy-regular.woff2') format('woff2'),
-         url('radomir-tinkov-gilroy-regular.woff') format('woff');
+    src: url('../assets/fonts/radomir-tinkov-gilroy-regular.woff2') format('woff2'),
+         url('../assets/fonts/radomir-tinkov-gilroy-regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -64,8 +64,8 @@
 
 @font-face {
     font-family: 'sf_pro_textbold';
-    src: url('sf-pro-text-bold.woff2') format('woff2'),
-         url('sf-pro-text-bold.woff') format('woff');
+    src: url('../assets/fonts/sf-pro-text-bold.woff2') format('woff2'),
+         url('../assets/fonts/sf-pro-text-bold.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -76,8 +76,8 @@
 
 @font-face {
     font-family: 'sf_pro_textbold_italic';
-    src: url('sf-pro-text-bolditalic.woff2') format('woff2'),
-         url('sf-pro-text-bolditalic.woff') format('woff');
+    src: url('../assets/fonts/sf-pro-text-bolditalic.woff2') format('woff2'),
+         url('../assets/fonts/sf-pro-text-bolditalic.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -88,8 +88,8 @@
 
 @font-face {
     font-family: 'sf_pro_textheavy';
-    src: url('sf-pro-text-heavy.woff2') format('woff2'),
-         url('sf-pro-text-heavy.woff') format('woff');
+    src: url('../assets/fonts/sf-pro-text-heavy.woff2') format('woff2'),
+         url('../assets/fonts/sf-pro-text-heavy.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -100,8 +100,8 @@
 
 @font-face {
     font-family: 'sf_pro_textheavy_italic';
-    src: url('sf-pro-text-heavyitalic.woff2') format('woff2'),
-         url('sf-pro-text-heavyitalic.woff') format('woff');
+    src: url('../assets/fonts/sf-pro-text-heavyitalic.woff2') format('woff2'),
+         url('../assets/fonts/sf-pro-text-heavyitalic.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -112,8 +112,8 @@
 
 @font-face {
     font-family: 'sf_pro_textlight';
-    src: url('sf-pro-text-light.woff2') format('woff2'),
-         url('sf-pro-text-light.woff') format('woff');
+    src: url('../assets/fonts/sf-pro-text-light.woff2') format('woff2'),
+         url('../assets/fonts/sf-pro-text-light.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -124,8 +124,8 @@
 
 @font-face {
     font-family: 'sf_pro_textlight_italic';
-    src: url('sf-pro-text-lightitalic.woff2') format('woff2'),
-         url('sf-pro-text-lightitalic.woff') format('woff');
+    src: url('../assets/fonts/sf-pro-text-lightitalic.woff2') format('woff2'),
+         url('../assets/fonts/sf-pro-text-lightitalic.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -136,8 +136,8 @@
 
 @font-face {
     font-family: 'sf_pro_textmedium';
-    src: url('sf-pro-text-medium.woff2') format('woff2'),
-         url('sf-pro-text-medium.woff') format('woff');
+    src: url('../assets/fonts/sf-pro-text-medium.woff2') format('woff2'),
+         url('../assets/fonts/sf-pro-text-medium.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
