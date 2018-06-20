@@ -150,7 +150,7 @@ i {
 
 .scrolled {
   background-color: #E6E6E6;
-  opacity:0.9;
+  opacity: 0.9;
 }
 
 .textscrolled:not(.subscribe-btn) {
@@ -383,7 +383,8 @@ i {
 /* ------------------------------------------------------------------------- */
 
 .wrap .main-container section.blog .text {
-  margin-right: -130px;
+  margin-right: -225px;
+  margin-left: 100px;
 }
 
 .wrap .main-container section.blog .telephone-section4 {
