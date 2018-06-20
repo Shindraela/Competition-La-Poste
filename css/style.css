@@ -24,6 +24,10 @@ a {
   text-decoration: none !important;
 }
 
+h1 {
+  font-family: "gilroyextrabold", Arial, sans-serif;
+}
+
 *,
 *::before,
 *::after {
@@ -256,6 +260,7 @@ i {
 .ticks-container .tick {
   width: 50%;
   margin: 10px auto;
+  text-align: center;
 }
 
 .wrap .header {
@@ -264,7 +269,8 @@ i {
   width: 100%;
 }
 
-.wrap header .container {
+.wrap header .container,
+.wrap .main-container .premium .premium-container {
   width: 100%;
   height: 100%;
   display: flex;
