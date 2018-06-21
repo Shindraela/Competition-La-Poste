@@ -12,11 +12,11 @@ function onScroll() {
 
 $(document).ready(function () {
 
-  $(window).bind('resize', _.throttle(onResize, 100));
-  onResize();
+  // $(window).bind('resize', _.throttle(onResize, 100));
+  // onResize();
 
-  $(window).bind('scroll', _.throttle(onScroll, 100));
-  onScroll();
+  // $(window).bind('scroll', _.throttle(onScroll, 100));
+  // onScroll();
 
   $(window).bind('scroll', function () {
     var distance = 70;
