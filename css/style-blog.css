@@ -194,6 +194,11 @@ i {
     justify-content: space-between;
   }
 }
+@media (min-width: 1444px) {
+  .wrap .homepage {
+    height: 1000px !important;
+  }
+}
 
 /* ------------------------------------------------------------------------- */
 /*                                 HEADER                                    */
