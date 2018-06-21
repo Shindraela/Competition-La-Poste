@@ -311,6 +311,9 @@ i {
   width: 1330px;
 }
 
+.zoom { transition: all .2s ease-in-out; }
+.zoom:hover { transform: scale(1.05); }
+
 
 
 /* ------------------------------------------------------------------------- */
