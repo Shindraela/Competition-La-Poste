@@ -282,6 +282,33 @@ i {
 }
 
 /* ------------------------------------------------------------------------- */
+/*                              ARTICLES                                     */
+/* ------------------------------------------------------------------------- */
+.wrap .main-container section.articles {
+  flex: 1 100px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrap .main-container section.articles div:not(.bottom-container) {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap .main-container section.articles div img {
+  padding: 2%;
+}
+
+.wrap .main-container section.articles .bottom-container img {
+  max-width: 100%;
+  width: 1330px;
+}
+
+
+
+/* ------------------------------------------------------------------------- */
 /*                                   FOOTER                                  */
 /* ------------------------------------------------------------------------- */
 .wrap .main-container footer {
